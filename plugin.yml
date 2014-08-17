@@ -1,0 +1,14 @@
+name: Quidditch
+main: com.aleclownes.Quidditch.Quidditch
+version: 0.01
+author: cakenggt
+commands:
+  Qstart:
+    description: This command starts a Quidditch game on an elliptical field of total width north-south and total length east-west. The team names and colors need to be specified in either north-to-south or east-to-west order.
+    usage: Example usage /Qstart 100 50 Gryffindor RED Slytherin GREEN [referee name (optional if executed by a player, mandatory if executed by console)]
+  Qend:
+    description: This command ends the current quidditch match.
+    usage: Example usage /Qend
+  Test:
+    description: This command ends the current quidditch match.
+    usage: Example usage /Qend
